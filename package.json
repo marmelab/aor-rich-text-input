@@ -1,0 +1,47 @@
+{
+  "name": "aor-rich-text-input",
+  "version": "1.0.0",
+  "description": "A local REST client for admin-on-rest",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "LICENSE",
+    "*.md",
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marmelab/aor-rich-text-input.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react",
+    "rest",
+    "richtext",
+    "html",
+    "wysiwyg",
+    "editor"
+  ],
+  "author": "François Zaninotto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marmelab/aor-rich-text-input/issues"
+  },
+  "homepage": "https://github.com/marmelab/aor-rich-text-input#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "dependencies": {
+    "lodash.debounce": "~4.0.8",
+    "quill": "~1.1.9",
+    "react": "~15.4.0"
+  }
+}
