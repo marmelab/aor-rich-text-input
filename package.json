@@ -1,7 +1,7 @@
 {
   "name": "aor-rich-text-input",
   "version": "1.0.0",
-  "description": "A local REST client for admin-on-rest",
+  "description": "<RichTextInput> component for admin-on-rest, useful for editing HTML code in admin GUIs.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
