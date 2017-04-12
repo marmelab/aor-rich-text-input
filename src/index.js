@@ -1,5 +1,6 @@
 import debounce from 'lodash.debounce';
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Quill from 'quill';
 
 require('./RichTextInput.css');

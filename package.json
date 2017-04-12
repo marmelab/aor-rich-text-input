@@ -1,6 +1,6 @@
 {
   "name": "aor-rich-text-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "<RichTextInput> component for admin-on-rest, useful for editing HTML code in admin GUIs.",
   "main": "lib/index.js",
   "scripts": {
@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "lodash.debounce": "~4.0.8",
+    "prop-types": "~15.5.7",
     "quill": "~1.1.9",
     "react": "~15.4.0"
   }
