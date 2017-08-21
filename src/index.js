@@ -39,7 +39,9 @@ class RichTextInput extends Component {
     }
 
     render() {
-        return <div ref={this.updateDivRef} />;
+        return <div className='aor-rich-text-input'>
+            <div ref={this.updateDivRef} />
+        </div>
     }
 }
 
