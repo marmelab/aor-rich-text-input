@@ -42,7 +42,9 @@
   "dependencies": {
     "lodash.debounce": "~4.0.8",
     "prop-types": "~15.5.7",
-    "quill": "~1.1.9",
-    "react": "~15.5.4"
+    "quill": "~1.1.9"
+  },
+  "peerDependencies": {
+    "react": "^15.5.4"
   }
 }
