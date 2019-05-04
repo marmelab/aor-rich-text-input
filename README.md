@@ -1,3 +1,12 @@
+<table>
+        <tr>
+            <td><img width="20" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/archive.svg" alt="archived" /></td>
+            <td><strong>Archived Repository</strong><br />
+            This code is no longer maintained. Feel free to fork it, but use it at your own risks.
+        </td>
+        </tr>
+</table>
+
 # `<RichTextInput>` for admin-on-rest
 
 For editing HTML with [admin-on-rest](https://github.com/marmelab/admin-on-rest), use the `<RichTextInput>` component. It embarks [quill](http://quilljs.com/), a popular cross-platform Rich Text Editor.
