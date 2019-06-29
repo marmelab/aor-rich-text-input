@@ -39,7 +39,7 @@ class RichTextInput extends Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        if (nextProps.input.value !== this.props.input.value) {
+        if (nextProps.input.value !== editor.innerHTML) {
             this.quill.pasteHTML(nextProps.input.value);
         }
     }
